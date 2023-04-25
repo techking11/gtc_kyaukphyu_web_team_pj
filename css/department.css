@@ -1,0 +1,343 @@
+/* link google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_kaung{
+    margin: 0px 50px;
+    overflow: hidden;
+}
+
+/* start body head area*/
+.body_head{
+    margin-bottom: 30px;
+}
+
+.head_title{
+    color: #266EDB;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.head_photo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head_photo img{
+    width: 48%;
+    margin: 0px 10px 20px;
+}
+/* end body head area*/
+
+/* start inner body area */
+.inner_body_area{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+/* start aside area */
+
+.aside_area{
+    width: 25%;
+    float: left;
+    flex-grow: 1;
+}
+
+.aside_nav a{
+    display: block;
+    text-decoration: none;
+    color: #266EDB;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    /* border-bottom: 1px solid #DEE2E6; */
+}
+
+.aside_nav a:hover{
+    background-color: #266EDB;
+    color: white;
+    transition: background-color 1s;
+}
+
+.inner_body_area hr{
+    margin: 0px;
+    border: 1px solid lightgray;
+}
+/* end aside area */
+
+/* about area */
+#about_area{
+    width: 70%;
+    float: left;
+    margin: 20px 0px 0px 60px;
+    /* display: none; */
+    line-height: 1.5;
+}
+
+#about_area h2{
+    margin: 0px;
+    display: inline;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4fc4fa;
+}
+
+#about_area p{
+    text-align: justify;
+    margin: 30px 0px 16px;
+}
+
+#about_area ol{
+    line-height: 2;
+    margin: 14px 0px;
+    padding-left: 40px;
+}
+
+/* faculty area */
+#faculty_area{
+    width: 70%;
+    float: left;
+    margin: 20px 0px 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    flex-grow: 1;
+    
+}
+
+.card{
+    overflow: hidden;
+    width: 350px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0, .3);
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    margin: 10px 35px;
+}
+
+.card img{
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    border-radius: 50%;
+    left: 20px;
+}
+
+.info{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.info p{
+    margin: 16px 0px;
+}
+
+/* curriculum area */
+#curriculum_area{
+    width: 70%;
+    margin: 20px 0px 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* global grade */
+.grade{
+    padding: 10px;
+    background-color: #E7EDFC;
+    margin: 0px 0px 20px;
+    color: #226edb;
+    font-weight: 600;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.grade:hover{
+    color: white;
+    background-color: #226edb;
+    transition: background-color 1s;
+}
+
+.right_symbol{
+    font-size: 20px;
+    float: right;
+    height: 0px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.details{
+    margin: 0px 20px;
+    color: #212529;
+    display: none;
+}
+
+.details h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 20px 0px 10px;
+}
+
+.details h4{
+    margin: 0px 0px 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+    border: none;
+    padding: 10px 0px;
+}
+
+table{
+    border: 1px solid rgb(0, 0, 0, .1);
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th{
+    background-color: #226edb;
+    color: white;
+}
+
+#no{
+    width: 10px; 
+    padding: 0px 10px; 
+}
+
+#code,#courses{
+    padding-left: 5px;
+    text-align: left;
+}
+
+#period{
+    border-bottom: 2px solid #dee2e6;
+}
+
+#period_info{
+    width: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#credit{
+    width: 10px; 
+    padding: 0px 10px 0px 20px; 
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(0, 0, 0, .05);
+}
+
+#total{
+    text-align: center;
+}
+
+/* time table area */
+#time_table_area{
+    width: 70%;
+    margin: 20px 0px 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.time_table{
+    border: 1px solid black;
+}
+
+.time_table th,tr,td{
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* news area */
+#news_area{
+    width: 70%;
+    margin: 20px 0px 0px 60px;
+    margin-bottom: 100px;
+    display: none;
+}
+
+.news_head h2,h4{
+    color: #226edb;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.news_head h4{
+    font-weight: 400;
+}
+
+.news_group{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.news_data{
+    width: 300px;  
+    border: 1px solid rgb(0,0,0,.1);
+    box-shadow: 5px 5px 5px rgb(0,0,0,.1);  
+    cursor: pointer;
+}
+
+.news_data:hover{
+    box-shadow: 5px 10px 20px #868e96;
+    transition: box-shadow 0.5s;
+}
+
+.news_data img{
+    width: 100%;
+}
+
+.news_data p{
+    padding-left: 10px;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.news_data a{
+    text-decoration: none;
+}
+
+.news_data .content{
+    /* color: #868e96; */
+    margin: 15px 0px;
+    text-align: left;
+}
+
+.posted_date{
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.posted_date i{
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.news_detail{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* end inner body area */
+
+

@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+* {
+  box-sizing: border-box;
+}
+html {
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.title{
+  color: #0489B7;
+  text-align: center;
+}
+.titttle{
+  color: #0489B7;
+  text-align: center;
+}
+.time{
+  color: #837c86;
+  text-align: center;
+}
+.mid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidenav{
+    display: inline-block;
+    background-color:white;
+}
+.sidenav h3{
+  padding-top: 200px;
+  color: #222222;
+  transition:  color 0.1s ease-in-out;
+}
+.sidenav h3:hover{
+  color: #837c86;
+}
+.Mtimeline{
+    display: inline-block;
+}
+.full{
+  display: absolute;
+}
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  color: black;
+}
+.Mtimeline p{
+  font-size: 16px;
+  line-height: 1.5;
+  padding:0px 20px 5px 0px;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color:#E8ECEF;
+  top: 124px;
+  bottom: -28px;
+  left: 50%;
+}
+.containerleft{
+  padding: -1px 50px;
+  position: relative;
+  background-color: white;
+  width: 50%;
+}
+.containerss {
+  padding: -1px 50px;
+  position: relative;
+  background-color: white;
+  width: 50%;
+}
+.containerss::after {
+  content: '';
+  position: absolute;
+  width: 115px;
+  height:115px;
+  right: -60px;
+  background-image:url(../image/images.jpg);
+  background-size: cover;
+  border: 6px solid #E8ECEF;
+  top: 0px;
+  border-radius: 100%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+.right::after {
+  left: -68px;
+}
+.contentlft {
+  padding: 0px 76px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  text-align: right;
+}
+.contentlft a{
+  color: black;
+}
+.contentrgt {
+  padding-left: 70px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  text-align: left;
+}
+.contentrgt a{
+  color: black;
+}
+.vision h3{
+  font-size: 30px;
+  color: #266edb;
+  text-align: center;
+}
+.vision p{
+  font-size: 18px;
+  color: #222222;
+  line-height: 1.5;
+}
+.mission h3{
+  color: #266edb;
+  font-size: 30px;
+  text-align: center;
+}
+.mission ul li{
+  font-size: 18px;
+  color: #222222;
+  line-height: 1.5;
+  text-align: left;
+}
+/*
+** Student Communities ------------------------------------------ */
+
+.containerStu{
+  display: flex;
+  box-shadow: 3px 3px 5px #E7E9EB, -3px 0px 5px #E7E9EB;
+  padding: 50px;
+}
+.leftStu{
+  width: 800px;
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+}
+.imgBud{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+#budh3{
+    color: #0070DB;
+    font-size: 30px;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+.bud{
+  font-size: 18px;
+  line-height: 2;
+}
+.rightcnt{
+  width: 400px;
+}
+.rightStu{
+  width: 400px;
+}
+#header{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #0489B7;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+.ulStu{
+  list-style-type: none;
+}
+.ulStu li, .ulStu a {
+  display: block;
+  width: 400px;
+}
+.ulStu a {
+  border-bottom: 1px solid #0489B7;
+  margin-bottom: 20px;
+}
+.inline{
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #222;
+}
+.inline:hover{
+  color: #0070DB;
+}
+.ulStu a{
+  text-decoration: none;
+}
+/************************************************************/
+.pcContainer{
+  width: 100%;
+}
+.mainFirst{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.firstPC{
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-right: 260px;
+  border-radius: 10px;
+  border: solid 3px gray;
+}
+#firstPhoto{
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+#firstPhoto img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+#firstDetails{
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 50px;
+}
+#ftdirector{
+  font-size: 28px;
+  color: #0070DB;
+}
+#firstDetails li{
+list-style-type: none;
+color:black;
+}
+.pcform{
+  width: 100%;
+}
+.pcform img {
+  width: 300px;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border: 3px double #E7E9EB;
+  border-radius: 10px;
+}
+.pcform p {
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+  text-indent: 60px;
+}
+.pcform h3, .mid h3 {
+  color: #0489B7;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+.containerStu {
+  width: 1200px;
+  margin: 0 auto;
+}
+/***********************************************************/
+.mainCt {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 3px 3px 3px #E7E9EB, -3px 0px 3px #E7E9EB;
+  padding: 50px;
+}
+.Mcontainer {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 3px 3px 3px #E7E9EB, -3px 0px 3px #E7E9EB;
+}
+.mission_vission_main {
+  padding: 30px;
+}
+.mission_vission h3 {
+  margin: 20px 0px;
+}
+.mission_vission p, .mission_vission ul li {
+  line-height: 2;
+}
+.Mcontainer .mission_vission_nav {
+  width: 200px;
+}
+.Mcontainer .mission_vission {
+  padding-left: 100px;
+}
+.Mcontainer .rightcnt, .Mcontainer .rightStu, .Mcontainer .ulStu a, .Mcontainer .ulStu li {
+  width: 300px;
+}
+.Mcontainer .Mtimeline {
+  width: 900px;
+  padding-left: 0px;
+}
+.Mcontainer .Mtimeline img {
+  width: 100%;
+  object-fit: cover;
+  padding-left: 30px;
+}
+.organization-chart {
+  padding: 30px;
+}
+.about_college p {
+  line-height: 2;
+  font-size: 18px;
+}
+.about_college {
+  padding: 60px 0px;
+  box-shadow: 0px 0px transparent;
+}
+.containerStu, .mainCt, .Mcontainer {
+  margin-top: 30px;
+}
+.Mcontainer {
+  margin-bottom: 40px;
+}
