@@ -1,0 +1,185 @@
+/* link google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container_kaung{
+    margin: 0px 50px;
+    overflow: hidden;
+}
+
+/* start body head area*/
+.body_head{
+    margin: 30px 0px;
+}
+
+.head_title{
+    color: #266EDB;
+    text-align: center;
+    margin: 0px 0px;
+}
+/* end body head area*/
+
+/* start inner body area */
+.inner_body_area{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* start aside area */
+
+.aside_area{
+    width: 25%;
+    float: left;
+    flex-grow: 1;
+}
+
+.aside_nav a{
+    display: block;
+    text-decoration: none;
+    color: #266EDB;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    /* border-bottom: 1px solid #DEE2E6; */
+}
+
+.aside_nav a:hover{
+    background-color: #266EDB;
+    color: white;
+    transition: background-color 1s;
+}
+
+.inner_body_area hr{
+    margin: 0px;
+    border: 1px solid lightgray;
+}
+/* end aside area */
+
+.back_to_top{
+    position: fixed;
+    left: 60px;
+    bottom: 0;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.back_to_top a{
+    text-decoration: none;
+    color: #266EDB;
+}
+
+/* civil engineering */
+.area{
+    width: 70%;
+    float: left;
+    margin: 20px 0px 0px 60px;
+    /* display: none; */
+    line-height: 1.5;
+}
+
+.area h2{
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+.area p{
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.info{
+    border-bottom: 1px dashed rgb(0,0,0,0.5);
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    overflow: hidden;
+}
+
+.info img{
+    width: 250px;
+    float: left;
+}
+
+.info_content{
+    width: 70%;
+    float: left;
+    margin: 0px 0px;
+}
+
+.info_head{
+    margin: 0px 20px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content{
+    margin: 0px 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* pagination */
+.pagination{
+    text-align: center;
+    margin: 15px 15px 50px;
+    user-select: none;
+}
+
+.pagination li{
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    /* line-height: 45px; */
+}
+
+.previous-page, .next-page{
+    background: #4fc4fa;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    line-height: 25px;
+}
+
+.previous-page:hover{
+    transform: translateX(-5px);
+}
+
+.next-page:hover{
+    transform: translateX(5px);
+}
+
+.current-page, .dots{
+    /* background: #ccc; */
+    background: rgb(0, 0, 0, 0.08);
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active{
+    background: #4fc4fa;
+}
+
+.disable{
+    /* background: #ccc; */
+    background: rgb(0, 0, 0, 0.08);
+}
+
+.roadmap{
+    width: 100%;
+}

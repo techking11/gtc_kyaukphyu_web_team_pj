@@ -1,0 +1,141 @@
+/* link google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_kaung{
+    margin: 0px 50px;
+    overflow: hidden;
+}
+
+/* header */
+.body_head{
+    margin-bottom: 30px;
+}
+
+.head_title{
+    color: #266EDB;
+    text-align: center;
+    margin: 20px 0px 0px; 
+}
+
+/* start inner body area */
+.inner_body_area{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+
+/* start aside area */
+
+.aside_area{
+    width: 25%;
+    float: left;
+    /* flex-grow: 1; */
+}
+
+.aside_nav a{
+    display: block;
+    text-decoration: none;
+    color: #266EDB;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    /* border-bottom: 1px solid #DEE2E6; */
+}
+
+.aside_nav a:hover{
+    background-color: #266EDB;
+    color: white;
+    transition: background-color 1s;
+}
+
+.inner_body_area hr{
+    margin: 0px;
+    border: 1px solid lightgray;
+}
+/* end aside area */
+
+.area{
+    width: 70%;
+    height: 550px;
+    float: left;
+    margin: 0px 24px 50px;
+    padding: 30px;
+    /* display: none; */
+    line-height: 1.5;
+    border: 1px solid rgb(0, 0, 0, 0.05);
+    box-shadow: 0 16px 48px rgba(0,0,0,0.1);
+}
+
+/* .area:hover{
+    box-shadow: 5px 10px 20px #868e96;
+    transition: box-shadow 0.5s;
+} */
+
+.title{
+    margin: 0px;
+    text-align: center;
+    /* color: #266EDB; */
+}
+
+.for{
+    margin: 0px;
+    text-align: center;
+    color: #266EDB;
+}
+
+.title+p{
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: 600;
+    margin: 30px 10px 10px;
+}
+
+ol{
+    color: rgb(0, 0, 0, 0.7);
+    line-height: 2;
+    margin: 0px 20px 20px;
+    padding: 0px 15px 0px 40px;
+}
+
+/* fees area */
+table{
+    width: 100%;
+    color: rgb(0, 0, 0, 0.7);
+    margin: 30px 0px;
+    text-align: left;
+    line-height: 3.2;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+.no{
+    width: 30%;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+.decs, .fees{
+    width: 35%;
+    vertical-align: top;
+}
+
+/* forms area */
+.forms_area{
+    height: 800px;
+}
+
+iframe{
+    margin: 30px 10px;
+    width: 97%;
+    height: 700px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}

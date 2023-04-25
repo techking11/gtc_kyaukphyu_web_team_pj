@@ -1,0 +1,213 @@
+/* link google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container_kaung{
+    margin: 0px 50px;
+    overflow: hidden;
+}
+
+/* header */
+.head_img{
+    background-image: url(../images/library_head.jpg);
+    height: 450px; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.head_title{
+    color: #266EDB;
+    text-align: center;
+    margin: 20px 0px 5px;
+}
+
+.area:nth-child(even){
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+
+.title{
+    text-align: center;
+    /* color: #266EDB; */
+    margin: 20px 0px 10px;
+}
+
+.book_icon{
+    color: #266EDB;
+    margin: 0px 0px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.book_icon i{
+    padding: 0px 10px;
+}
+
+.dir{
+    color: #266edb;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.back{
+    float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.major_dir{
+    float: right;
+    display: inline;
+}
+
+/* book */
+.book_area, .all_book_area{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.book, .all_book{
+    width: 15%;
+    margin: 0px 20px 50px;
+}
+
+.book img,.all_book img{
+    width: 60%;
+    margin: 0px 35px;
+}
+
+.img{
+    height: 190px;
+}
+
+.name{
+    margin: 5px 0px;
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.name a{
+    color: #266EDB;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.author{
+    margin: 5px 0px;
+    font-size: 11px;
+    line-height: 1.3;
+    font-weight: 100;
+}
+
+.author span{
+    color: #266EDB;
+}
+
+.see_more_btn{
+    display: inherit;
+    margin: 0px auto;
+    background-color: #266EDB;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.see_more_btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.see_more_btn i{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.see_more_btn:hover{
+    box-shadow: 3px 3px 10px #868e96;
+    transition: background-color 0.5s;
+}
+
+
+/* All book for 4 major */
+.book_collection{
+    display: none;
+}
+
+
+
+
+
+
+
+/* pagination */
+.pagination{
+    text-align: center;
+    margin: 0px 15px 50px;
+    user-select: none;
+}
+
+.pagination li{
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    /* line-height: 45px; */
+}
+
+.previous-page, .next-page{
+    background: #4fc4fa;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    line-height: 25px;
+}
+
+.previous-page:hover{
+    transform: translateX(-5px);
+}
+
+.next-page:hover{
+    transform: translateX(5px);
+}
+
+.current-page, .dots{
+    /* background: #ccc; */
+    background: rgb(0, 0, 0, 0.08);
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active{
+    background: #4fc4fa;
+}
+
+.disable{
+    /* background: #ccc; */
+    background: rgb(0, 0, 0, 0.08);
+}
+
+.roadmap{
+    width: 100%;
+}
+
